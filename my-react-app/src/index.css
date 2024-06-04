@@ -27,3 +27,12 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: hsl(219, 95%, 22%);
 }
+
+.button{
+  background-color: rgb(190, 138, 238);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+}
