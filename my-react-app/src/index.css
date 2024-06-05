@@ -36,3 +36,9 @@
   cursor: pointer;
   height: 50px;
 }
+
+.props{
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 10px;
+}
