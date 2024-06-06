@@ -42,3 +42,19 @@
   border: 1px solid black;
   font-size: 10px;
 }
+
+.greeting{
+  font-size: 2.5em;
+  background-color: rgb(118, 252, 118);
+  color: black;
+  padding: 10px;
+
+}
+
+.login{
+  font-size: 2.5em;
+  background-color: rgb(252, 118, 118);
+  color: black;
+  padding: 10px;
+
+}

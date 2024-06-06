@@ -3,12 +3,14 @@ import Login from "./Login/Login";
 import Signup from "./Signup";
 import Card from "./card";
 import Propexample from "./Propsexample";
+import UserGreeting from "./UserGreeting";
 
 
 function App() {
 
   return(
     <>
+    <UserGreeting isLoggedIn={true} username="Binda"/>
      <Card/>
      <Button/>
      <Login/>

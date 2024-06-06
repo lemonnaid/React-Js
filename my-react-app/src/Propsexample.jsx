@@ -27,6 +27,6 @@ Propexample.defaultProps ={
     name: "Froggy",
     project: "ReactJs",
     day: 0,
-    isActive: "No",
+    isActive: false,
 }
 export default Propexample
