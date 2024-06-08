@@ -10,13 +10,13 @@ function App() {
 
   return(
     <>
-    <UserGreeting isLoggedIn={true} username="Binda"/>
+     <UserGreeting isLoggedIn={false} username="Binda"/>
      <Card/>
      <Button/>
      <Login/>
      <Signup/>
      <Propexample name ="Binda" project="Learning With Leapfrog" day={5} isActive={true}/>
-     <Propexample name ="Lemon" project="Learn about props" day="50" isActive={false}/>
+     <Propexample name ="Lemon" project="Learn about props" day={50} isActive={false}/>
      <Propexample />
     </>
   );
