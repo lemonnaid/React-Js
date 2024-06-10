@@ -1,4 +1,4 @@
-.card{
+/* .card{
   border: 1px solid hsl(0, 0%, 80%);
   border: 10px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
@@ -57,4 +57,21 @@
   color: black;
   padding: 10px;
 
+} */
+
+.counter-container{
+  text-align: center;
+}
+.count-display{
+  font-size: 10em;
+  margin-bottom: 50px;
+}
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  margin: 0 5px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  cursor: pointer;
 }

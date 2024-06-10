@@ -5,6 +5,7 @@ import Card from "./card";
 import Propexample from "./Propsexample";
 import UserGreeting from "./UserGreeting";
 import Counter from "./Counter";
+import Count from "./Count";
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
      <Propexample name ="Lemon" project="Learn about props" day={50} isActive={false}/>
      <Propexample /> */}
 
-     <Counter/>
+     {/* <Counter/> */}
+
+     <Count/>
 
     </>
   );
