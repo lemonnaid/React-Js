@@ -6,6 +6,9 @@ import Propexample from "./Propsexample";
 import UserGreeting from "./UserGreeting";
 import Counter from "./Counter";
 import Count from "./Count";
+import Colors from "./Colors";
+import MyComponent from "./onchange";
+
 
 
 function App() {
@@ -19,11 +22,14 @@ function App() {
      <Signup/>
      <Propexample name ="Binda" project="Learning With Leapfrog" day={5} isActive={true}/>
      <Propexample name ="Lemon" project="Learn about props" day={50} isActive={false}/>
-     <Propexample /> */}
+     <Propexample />
 
-     {/* <Counter/> */}
+     <Counter/>
 
      <Count/>
+     <Colors/> */}
+
+     <MyComponent/>
 
     </>
   );

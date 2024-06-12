@@ -66,12 +66,22 @@
   font-size: 10em;
   margin-bottom: 50px;
 }
-.counter-button{
+.counter-button,
+.color-btn{
   width: 150px;
   height: 50px;
   font-size: 1.5em;
-  margin: 0 5px;
-  background-color: cadetblue;
+  /* margin: 0 5px; */
+  background-color: rgb(140, 184, 185);
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 50px;  /* Maintain margin for spacing between buttons */
+  padding: 10px 20px;
+}
+
+.color-switch{
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  justify-content: space-between;
 }
