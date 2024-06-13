@@ -8,6 +8,7 @@ import Counter from "./Counter";
 import Count from "./Count";
 import Colors from "./Colors";
 import MyComponent from "./onchange";
+import ColorPicker from "./ColorPicker";
 
 
 
@@ -29,7 +30,8 @@ function App() {
      <Count/>
      <Colors/> */}
 
-     <MyComponent/>
+     {/* <MyComponent/> */}
+     <ColorPicker/>
 
     </>
   );
