@@ -25,13 +25,13 @@ function App() {
      <Propexample name ="Lemon" project="Learn about props" day={50} isActive={false}/>
      <Propexample />
 
-     <Counter/>
+     <Counter/> */}
 
      <Count/>
-     <Colors/> */}
+     {/* <Colors/> */}
 
      {/* <MyComponent/> */}
-     <ColorPicker/>
+     {/* <ColorPicker/> */}
 
     </>
   );
