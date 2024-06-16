@@ -1,125 +1,66 @@
-/* .card{
-  border: 1px solid hsl(0, 0%, 80%);
-  border: 10px;
-  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-  max-width: 250px;
-  display: inline-block;
-  background-color: rgb(247, 248, 209);
-}
+// 
 
-.card .card-img{
-  max-width: 60%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.card .card-title{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  color: hsl(219, 43%, 55%);
-}
-
-.card .card-text{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: hsl(219, 95%, 22%);
-}
-
-.button{
-  background-color: rgb(190, 138, 238);
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  height: 50px;
-}
-
-.props{
-  padding: 10px;
-  border: 1px solid black;
-  font-size: 10px;
-}
-
-.greeting{
-  font-size: 2.5em;
-  background-color: rgb(118, 252, 118);
-  color: black;
-  padding: 10px;
-
-}
-
-.login{
-  font-size: 2.5em;
-  background-color: rgb(252, 118, 118);
-  color: black;
-  padding: 10px;
-
-} */
-
-.counter-container{
-  text-align: center;
-}
-.count-display{
-  font-size: 10em;
-  margin-bottom: 50px;
-}
-.counter-button,
-.color-btn{
-  width: 150px;
-  height: 50px;
-  font-size: 1.5em;
-  
-  background-color: rgb(140, 184, 185);
-  border-radius: 5px;
-  cursor: pointer;
-  margin-bottom: 50px;  
-  padding: 10px 20px;
-}
-
-.color-switch{
-  display: flex;
-  flex-direction: column; 
-  align-items: flex-start;
-  justify-content: space-between;
-} 
-
-.color-picker-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  label{
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  input[type="color"]{
-    width:75px ;
-    height: 50px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 3px solid hsl(0,0%, 80%);
-  }
-}
-h1{
-  margin: 50px;
-  font-size: 3rem;
-}
-.color-display{
-  width: 300px;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid hsl(0, 0%, 80%);
-  border-radius: 25px;
-  margin-bottom: 25px;
-  transition: 0.25s ease;
-  p{
-    color:hsl(0, 0%, 20%) ;
-    font-size: 2rem;
+.todo-list{
     text-align: center;
-  }
+    margin-top: 10%;
+    h1{
+      font-size: 4rem;
+    }
+    button{
+      font-size: 1.2rem;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.5s ease;
+    }
+    .add-btn{
+      background-color: hsl(120, 87%, 64%);
+      margin: 0 20px;
+      &:hover{
+        background-color: hsl(120, 87%, 34%);
+      }
+    }
+    .delete-btn{
+      background-color: hsl(2, 87%, 64%);
+      &:hover{
+        background-color: hsl(2, 87%, 34%);
+      }
+    }
+    .move-btn{
+      background-color: hsl(197, 87%, 64%);
+      &:hover{
+        background-color: hsl(197, 87%, 34%);
+      }
+    }
+   input[type='text']{
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px solid black ;
+    border-radius: 5px;
+   }
+   ol{
+    padding: 0;
+    margin: 20px 100px;
+    li{
+      font-size: 1.6rem;
+      font-weight: bold;
+      padding: 15px;
+      background-color: beige;
+      margin-bottom: 10px;
+      border: 2px solid hsla(0, 0%, 85%, 0.75);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      .text{
+        flex: 1;
+      }
+      .delete-btn,
+      .move-btn{
+        padding: 8px 12px;
+        font-size: 1.2rem;
+        margin-left: 10px;
+      }
+    }
+   }
 }

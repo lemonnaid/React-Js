@@ -9,6 +9,9 @@ import Count from "./Count";
 import Colors from "./Colors";
 import MyComponent from "./onchange";
 import ColorPicker from "./ColorPicker";
+import MyComponents from "./updateArray";
+import TodoList from "./TodoList";
+
 
 
 
@@ -27,11 +30,13 @@ function App() {
 
      <Counter/> */}
 
-     <Count/>
+     {/* <Count/> */}
      {/* <Colors/> */}
 
      {/* <MyComponent/> */}
      {/* <ColorPicker/> */}
+      {/* <MyComponents/> */}
+      <TodoList/>
 
     </>
   );
