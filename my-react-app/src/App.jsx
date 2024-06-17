@@ -11,6 +11,7 @@ import MyComponent from "./onchange";
 import ColorPicker from "./ColorPicker";
 import MyComponents from "./updateArray";
 import TodoList from "./TodoList";
+import EffectComp from "./effect";
 
 
 
@@ -36,7 +37,8 @@ function App() {
      {/* <MyComponent/> */}
      {/* <ColorPicker/> */}
       {/* <MyComponents/> */}
-      <TodoList/>
+      {/* <TodoList/> */}
+    <EffectComp/>
 
     </>
   );
