@@ -12,6 +12,7 @@ import ColorPicker from "./ColorPicker";
 import MyComponents from "./updateArray";
 import TodoList from "./TodoList";
 import EffectComp from "./effect";
+import Clock from "./Clock";
 
 
 
@@ -32,14 +33,15 @@ function App() {
      <Counter/> */}
 
      {/* <Count/> */}
+
      {/* <Colors/> */}
 
      {/* <MyComponent/> */}
      {/* <ColorPicker/> */}
       {/* <MyComponents/> */}
       {/* <TodoList/> */}
-    <EffectComp/>
-
+    {/* <EffectComp/> */}
+      <Clock/>
     </>
   );
 }
