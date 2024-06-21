@@ -1,77 +1,135 @@
 // 
 
-.todo-list{
-    text-align: center;
-    margin-top: 10%;
-    h1{
-      font-size: 4rem;
-    }
-    button{
-      font-size: 1.2rem;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.5s ease;
-    }
-    .add-btn{
-      background-color: hsl(120, 87%, 64%);
-      margin: 0 20px;
-      &:hover{
-        background-color: hsl(120, 87%, 34%);
-      }
-    }
-    .delete-btn{
-      background-color: hsl(2, 87%, 64%);
-      &:hover{
-        background-color: hsl(2, 87%, 34%);
-      }
-    }
-    .move-btn{
-      background-color: hsl(197, 87%, 64%);
-      &:hover{
-        background-color: hsl(197, 87%, 34%);
-      }
-    }
-   input[type='text']{
-    font-size: 1.2rem;
-    padding: 10px;
-    border: 1px solid black ;
-    border-radius: 5px;
-   }
-   ol{
-    padding: 0;
-    margin: 20px 100px;
-    li{
-      font-size: 1.6rem;
-      font-weight: bold;
-      padding: 15px;
-      background-color: beige;
-      margin-bottom: 10px;
-      border: 2px solid hsla(0, 0%, 85%, 0.75);
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      .text{
-        flex: 1;
-      }
-      .delete-btn,
-      .move-btn{
-        padding: 8px 12px;
-        font-size: 1.2rem;
-        margin-left: 10px;
-      }
-    }
-   }
-}
+// .todo-list{
+//     text-align: center;
+//     margin-top: 10%;
+//     h1{
+//       font-size: 4rem;
+//     }
+//     button{
+//       font-size: 1.2rem;
+//       padding: 10px 20px;
+//       border: none;
+//       border-radius: 5px;
+//       cursor: pointer;
+//       transition: background-color 0.5s ease;
+//     }
+//     .add-btn{
+//       background-color: hsl(120, 87%, 64%);
+//       margin: 0 20px;
+//       &:hover{
+//         background-color: hsl(120, 87%, 34%);
+//       }
+//     }
+//     .delete-btn{
+//       background-color: hsl(2, 87%, 64%);
+//       &:hover{
+//         background-color: hsl(2, 87%, 34%);
+//       }
+//     }
+//     .move-btn{
+//       background-color: hsl(197, 87%, 64%);
+//       &:hover{
+//         background-color: hsl(197, 87%, 34%);
+//       }
+//     }
+//    input[type='text']{
+//     font-size: 1.2rem;
+//     padding: 10px;
+//     border: 1px solid black ;
+//     border-radius: 5px;
+//    }
+//    ol{
+//     padding: 0;
+//     margin: 20px 100px;
+//     li{
+//       font-size: 1.6rem;
+//       font-weight: bold;
+//       padding: 15px;
+//       background-color: beige;
+//       margin-bottom: 10px;
+//       border: 2px solid hsla(0, 0%, 85%, 0.75);
+//       border-radius: 10px;
+//       display: flex;
+//       align-items: center;
+//       .text{
+//         flex: 1;
+//       }
+//       .delete-btn,
+//       .move-btn{
+//         padding: 8px 12px;
+//         font-size: 1.2rem;
+//         margin-left: 10px;
+//       }
+//     }
+//    }
+// }
 
-.clock-container{
+// .clock-container{
     
 
-  .clock{
-    font-size: 6rem;
+//   .clock{
+//     font-size: 6rem;
+//     font-weight: bold;
+//     text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+//     text-align: center;
+//   }
+// }
+
+// .box{
+//   border: 3px solid;
+//   padding: 25px;
+// }
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  .stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+  }
+  .display{
+    font-size: 5rem;
     font-weight: bold;
-    text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
     text-align: center;
+  }
+  .controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  .start-button{
+    background-color: hsl(120, 67%, 56%);
+    &:hover{
+      background-color: hsl(120, 67%, 26%);
+    }
+  }
+  .stop-button{
+    background-color: hsl(9, 67%, 56%);
+    &:hover{
+      background-color: hsl(9, 67%, 26%);
+    }
+  }
+  .reset-button{
+    background-color: hsl(271, 67%, 56%);
+    &:hover{
+      background-color: hsl(253, 67%, 26%);
+    }
   }
 }

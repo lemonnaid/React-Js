@@ -13,6 +13,8 @@ import MyComponents from "./updateArray";
 import TodoList from "./TodoList";
 import EffectComp from "./effect";
 import Clock from "./Clock";
+import ComponentA from "./ComponentA";
+import StopWatch from "./StopWatch";
 
 
 
@@ -41,7 +43,9 @@ function App() {
       {/* <MyComponents/> */}
       {/* <TodoList/> */}
     {/* <EffectComp/> */}
-      <Clock/>
+      {/* <Clock/> */}
+      {/* <ComponentA/> */}
+      <StopWatch/>
     </>
   );
 }
