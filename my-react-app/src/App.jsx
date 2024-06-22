@@ -15,14 +15,25 @@ import EffectComp from "./effect";
 import Clock from "./Clock";
 import ComponentA from "./ComponentA";
 import StopWatch from "./StopWatch";
-
-
+import { Routes, Route, Link } from "react-router-dom";
+import Homepage from "./navbar/Homepage";
+import AboutMe from "./navbar/AboutMe";
 
 
 function App() {
 
   return(
     <>
+      <nav className="nav">
+        <Link to ="/" className="nav-items">Homepage</Link>
+        <Link to ="/about-me" className="nav-items">About Me</Link>
+      </nav>
+      <Routes>
+      <Route path = "/" element ={<Homepage/>} />
+      <Route path = "/about-me" element ={<AboutMe/>} />
+      </Routes>
+
+      
      {/* <UserGreeting isLoggedIn={false} username="Binda"/>
      <Card/>
      <Button/>
@@ -45,7 +56,7 @@ function App() {
     {/* <EffectComp/> */}
       {/* <Clock/> */}
       {/* <ComponentA/> */}
-      <StopWatch/>
+      {/* <StopWatch/> */}
     </>
   );
 }
